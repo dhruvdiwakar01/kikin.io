@@ -1,0 +1,241 @@
+@font-face {
+    font-family: Mori, sans-serif;
+    src: url('https://fonts.cdnfonts.com/css/graphik-trial');
+
+                
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Mori, sans-serif;
+}
+nav {
+    background-color: #122315;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 0px 40px;
+    position: fixed;
+    top: 0;
+    bottom: 100%;
+    z-index: 99;
+}
+nav img{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Mori, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav .navbtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.login-btn{
+    border-color: white;
+    background-color: #122315;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding: 12px 16px;
+    /* border: 1px solid white; */
+
+}
+.funding-btn{
+    background-color: #55DD4A;
+    border-color: #55DD4A;
+    color: #122315;
+    font-size: 13px;
+    font-weight: 550;
+    padding: 12px 16px;
+    border-radius: 10px;
+    letter-spacing: 0;
+
+}
+
+
+/* main */
+
+#main{
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+#page1{
+width: 100%;
+min-height: 100vh;
+background-color: #122315;
+padding-top: 150px;
+
+}
+#page1 .heading1{
+    font-size: 9.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    opacity: 0;
+
+
+
+}
+#page1 .heading2{
+    top: 100px;
+    font-size: 9.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: #55DD4A;
+    font-weight: 800;
+    font-family: MoriSB, sans-serif;
+    letter-spacing: 0;
+    line-height: -100%;
+    opacity: 0;
+}
+#page1 p{
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+#page1 .imgdiv{
+    width: 100%;
+    height: 50vh;
+    background-image: url(page1.banner.svg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+}
+#page2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F3EDE4;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    position: relative;
+
+
+}
+#page2 h1{
+    text-align: center;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: 0.8em;
+    width: auto;
+
+}
+#page2 p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+#page2 img{
+    width: 150px;
+    height: 150px;
+    z-index: 9;
+
+}
+#page2 .demo1{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    opacity: 0;
+}
+#page2 .demo2{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    opacity: 0;
+}
+#page2 .demo3{
+    position: absolute;
+    top: 250px;
+    right: 10px;
+    opacity: 0;
+}
+#page2 .demo4{
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    opacity: 0;
+}
+#page2 .demo5{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    opacity: 0;
+}
+
+
+/* page 3 */
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F3EDE4;
+    position: relative;
+
+}
+#page3 .box3{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 50px;
+}
+#page3 .number{
+    background-color: #55DD4A;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#page3 .left3 h1{
+    font-size: 4vw;
+    line-height: 85%;
+    letter-spacing: -2px;
+    margin-top: 40px;
+
+ 
+
+}
+#page3 .left3 p{
+    font-size: 18px;
+    margin-top: 100px;
+    
+}
